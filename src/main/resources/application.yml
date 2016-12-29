@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: FileUploader
+  output:
+    ansi:
+      enabled: ALWAYS
+  http:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+info:
+  name: FileUploader
+
+logging:
+  file: logfile/fileuploader.log
+  
