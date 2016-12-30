@@ -1,4 +1,4 @@
-= groovy File Uploader
+= groovy File Uploader sample project
 :example-caption: List
 
 File uploader sample project with Spring Boot, Asset Pipeline, UIKit, Groovy. 
