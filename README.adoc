@@ -1,0 +1,58 @@
+= groovy File Uploader
+:example-caption: List
+
+File uploader sample project with Spring Boot, Asset Pipeline, UIKit, Groovy. 
+
+
+== How to run / 実行方法
+
+.Clone project
+====
+----
+$ clone https://github.com/nobusugi246/fileUploader.git
+$ cd fileUploader
+----
+====
+
+.Start this Microservice
+====
+----
+$ ./gradlew bootRun
+
+or
+
+$ ./gradlew clean build
+$ java -jar build/libs/fileuploader-0.0.1.jar
+----
+====
+
+Please access below,
+
+http://localhost:8081
+
+
+== License / ライセンス
+
+Apache License Version 2.0
+
+
+== Acknowledgements / 謝辞
+
+* UIKit
+** https://getuikit.com/
+
+* Asset Pipeline
+** https://github.com/bertramdev/asset-pipeline
+** http://www.asset-pipeline.com/manual/ User Guide
+
+* Spring Boot
+** http://docs.spring.io/spring-boot/docs/1.4.3.RELEASE/reference/htmlsingle/
+
+* Apache Groovy
+** http://www.groovy-lang.org/
+
+
+== ChangLog / 変更履歴
+
+* Ver.0.0.1, Initial release. : 2016-12-30
+
