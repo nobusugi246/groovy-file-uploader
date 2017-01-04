@@ -1,7 +1,7 @@
 buildscript {
   ext {
     springBootVersion = '1.4.3.RELEASE'
-    assetPipelineVersion = '2.12.1'
+    assetPipelineVersion = '2.12.3'
   }
   repositories {
     mavenCentral()
